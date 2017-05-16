@@ -2,8 +2,8 @@
 applications:
 - disk_quota: 1024M
   buildpack: nodejs_buildpack
-  host: helloNodeHJGM
-  name: helloWatsonToneDemo
+  host: helloOaxacaLAAC
+  name: helloOaxacaLAAC
   command: node app.js
   path: .
   domain: mybluemix.net
