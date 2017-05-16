@@ -1,0 +1,11 @@
+---
+applications:
+- disk_quota: 1024M
+  buildpack: nodejs_buildpack
+  host: LimboHostWelcome
+  name: LimboHostWelcome
+  command: node server.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 1024M
